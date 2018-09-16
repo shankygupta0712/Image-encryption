@@ -1,0 +1,13 @@
+create table regist
+(
+firstname varchar2(20) ,
+lastname varchar2(20),
+userid varchar2(20) primary key,
+password varchar2(20)
+)
+/
+
+create table file2
+(
+uname varchar2(20),enfile long raw)
+/
